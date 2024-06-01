@@ -326,13 +326,16 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    padding-left: 40px;
+    
 }
 
 .section-ul .list .text {
     font-size: 16px;
-    line-height: 1.5;
+    linepadding-left: 40px ;-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 40px;
 }
 
 .kart {
@@ -501,4 +504,52 @@ a.baglanti {
     padding-left: 15px;
     padding-right: 15px;
     margin-right: 120px;
+}
+.footer-form-text{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.footer-form-form{
+    display: flex;
+    gap: 24px;
+}
+.form-input{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+.form-input ::placeholder{
+    color: #ffffff;
+}
+.form-button{
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+.form-icon{
+    margin-left: 16px;
 }
