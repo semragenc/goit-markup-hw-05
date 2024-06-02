@@ -557,7 +557,7 @@ a.baglanti {
     margin-left: 16px;
 }
 /*Modal*/
-.modal.page{
+.modal-page{
     position: fixed;
     top: 0;
     left: 0;
